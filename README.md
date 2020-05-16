@@ -1,1 +1,2 @@
-# Some LeetCode tasks
+# LeetCode repo
+Some LeetCode tasks
