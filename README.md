@@ -1,2 +1,2 @@
 # LeetCode repo
-Some LeetCode tasks
+Some LeetCode tasks with solution in C#
