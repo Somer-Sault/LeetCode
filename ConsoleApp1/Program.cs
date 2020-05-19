@@ -9,16 +9,17 @@ namespace ConsoleApp1
   {
     static void Main(string[] args)
     {
-      var head = new ListNode(3);
-      var ln2 = new ListNode(2);
+      var head = new ListNode(1);
+      var ln2 = new ListNode(3);
       var ln0 = new ListNode(0);
-      var ln4 = new ListNode(-4);
+      var ln4 = new ListNode(2);
 
       head.next = ln2;
       ln2.next = ln0;
       ln0.next = ln4;
-      ln4.next = ln2;
+      //ln4.next = ln2;
 
+      bool isPalindrome = new _234_PalindromeLinkedList().IsPalindrome(head);
       var cycelStartNode = new LinkedListCyclePosition().DetectCycle(head);
 
       //new SubSets_78().Subsets(new int[] { 1, 2, 3 });
