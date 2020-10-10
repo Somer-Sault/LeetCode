@@ -2,7 +2,6 @@
 using System;
 using System.Collections.Generic;
 using static ConsoleApp1.ReverseLinkList;
-using ConsoleApp1.Akvelon;
 
 namespace ConsoleApp1
 {
@@ -10,19 +9,6 @@ namespace ConsoleApp1
   {
     static void Main(string[] args)
     {
-      int dist = HammingDistance_461.HammingDistance(1, 4);
-      //CoinChange.CoinChange2(new[] { 186, 419, 83, 408 }, 6249);
-      Console.WriteLine(CoinChange.canGetExactChange(6249, new[] { 186, 419, 83, 408 }));
-      return;
-
-      var inpOrg = new List<string>()
-      {
-        "B2,E5,F6", "A1,B2,C3,D4", "D4,G7,I9", "G7,H8"
-      };
-
-      OrganizationHierarchy.Print(inpOrg);
-      return;
-        
       var head = new ListNode(1);
       var ln2 = new ListNode(3);
       var ln0 = new ListNode(0);
