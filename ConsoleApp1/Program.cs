@@ -10,6 +10,11 @@ namespace ConsoleApp1
   {
     static void Main(string[] args)
     {
+      string ssss = "#2#1#3";
+      string[] split = ssss.Split(new[] { '#' }, StringSplitOptions.RemoveEmptyEntries);
+      TreeNode root = new TreeNode(Int32.Parse(split[0]));
+
+
       int dist = HammingDistance_461.HammingDistance(1, 4);
       //CoinChange.CoinChange2(new[] { 186, 419, 83, 408 }, 6249);
       Console.WriteLine(CoinChange.canGetExactChange(6249, new[] { 186, 419, 83, 408 }));
