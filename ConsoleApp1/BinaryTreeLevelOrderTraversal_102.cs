@@ -37,7 +37,7 @@ namespace ConsoleApp1
       return result;
 
       // Variant 2
-      // Space: O(N)
+      // Space: O(N) (including extra class TreeNodeEx)
       // Runtime: O(N)
       //if (root == null)
       //  return new List<IList<int>>();
