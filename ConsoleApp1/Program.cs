@@ -10,6 +10,14 @@ namespace ConsoleApp1
   {
     static void Main(string[] args)
     {
+      int[][] matrix = //new int[][]
+      {
+        new int[] {1,1,1},
+        new int[] {1,0,1},
+        new int[] {1,1,1}
+      };
+      SetMatrixZeroes_73.SetZeroes(matrix);
+
       string ssss = "#2#1#3";
       string[] split = ssss.Split(new[] { '#' }, StringSplitOptions.RemoveEmptyEntries);
       TreeNode root = new TreeNode(Int32.Parse(split[0]));
